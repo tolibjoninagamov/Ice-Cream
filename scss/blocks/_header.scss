@@ -1,0 +1,34 @@
+.header {
+  background-color: #fbf0f4;
+}
+
+.header__inner {
+  @include d-flex(space-between);
+}
+
+.header__nav_bar ul {
+  @include d-flex(space-between);
+}
+
+.header__nav_bar ul li a {
+  padding-right: 40px;
+  color: #150101;
+  opacity: 0.6;
+  font-weight: 500;
+  @include roboto;
+
+  &:hover {
+    color: #D23166;
+  }
+}
+
+.header__btn {
+  background: #D23166;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FAFAFA;
+  padding: 14px 50px;
+  font-weight: bold;
+  @include hind;
+}

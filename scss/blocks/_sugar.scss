@@ -1,0 +1,31 @@
+.sugar {
+  background: #F8EDF0;
+  padding: 5px 0;
+}
+
+.sugar__inner {
+  @include d-flex(space-between);
+}
+
+.sugar__title {
+  @include hind;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  width: 46%;
+  margin-bottom: 20px;
+}
+
+.sugar__description {
+  @include roboto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
+  opacity: 0.6;
+  width: 67%;
+  margin-bottom: 38px;
+}
+
+.sugar__photo {
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+.delivery {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.delivery__inner {
+  @include d-flex(space-around);
+}
+
+.delivery__cards {
+  padding: 30px 0;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  gap: 39px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.delivery__photo {
+  margin-bottom: 30px;
+}
+
+.delivery__cards_title {
+  @include hind;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 9px;
+}
+
+.delivery__cards_description {
+  @include hind;
+  font-size: 14px;
+  line-height: 19px;
+  opacity: 0.6;
+  width: 80%;
+  margin: 0 auto;
+}

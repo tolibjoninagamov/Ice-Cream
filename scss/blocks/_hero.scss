@@ -1,0 +1,83 @@
+.hero {
+  background: #fbf0f4;
+  padding: 150px 0 250px 0;
+  max-width: 100vw;
+}
+
+.hero__inner {
+  @include d-flex(center);
+}
+
+.hero__left {
+  width: 50%;
+}
+
+.hero__title {
+  @include roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0F0101;
+  margin-bottom: 6px;
+}
+
+.hero__main_title {
+  font-family: Fredoka One;
+  font-size: 52.33px;
+  line-height: 120.5%;
+  color: #0F0101;
+  opacity: 0.9;
+  width: 89%;
+  margin-bottom: 35px;
+}
+
+.title__ice {
+  color: #d64474;
+}
+
+.hero__description {
+  font-size: 18px;
+  line-height: 27px;
+  color: #0F0101;
+  opacity: 0.6;
+  @include hind;
+  margin-bottom: 50px;
+  width: 79.5%;
+}
+
+.hero__right {
+  position: relative;
+  right: 840px;
+  bottom: 66px;
+  z-index: 1;
+  width: 50%;
+  
+}
+
+.icecream {
+  position: absolute;
+  left: 870px;
+  width: 100%;
+  top: -248px;
+  z-index: 2;
+  
+}
+
+.milk {
+  position: absolute;
+  left: 787.8px;
+  bottom: -440px;
+  width: 100%;
+  transform: rotate(4.79deg);
+  z-index: 2;
+}
+
+.fignya {
+  position: absolute;
+  left: 1020px;
+  top:50px;
+  width: 55%;
+  transform: rotate(4.79deg);
+  z-index: 2;
+}
